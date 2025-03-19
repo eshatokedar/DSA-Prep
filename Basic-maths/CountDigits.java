@@ -14,7 +14,7 @@ public class CountDigits {
             n = Math.abs(n);
         }
         while(n > 0) {
-            n = n / 10;
+            n = n / 10; // Remove the last digit
             count++;
         }
         System.out.println(count);
